@@ -77,7 +77,7 @@ mvn package
 ## How to run
 
 Start ElasticSearch. Esdemo will only need ElasticSearch host and port. It will operate
-on a single index.
+on a single index (`esdemo`).
 
 ```
 cd target
