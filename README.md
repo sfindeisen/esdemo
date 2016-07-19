@@ -94,4 +94,4 @@ This will start an embedded Tomcat instance. Point your browser to <http://local
 
 ## Further reading
 
-Project [documentation](docs/) (including screenshots).
+Project [documentation](doc/) (including screenshots).
