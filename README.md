@@ -89,7 +89,7 @@ This will start an embedded Tomcat instance. Point your browser to <http://local
 ## Troubleshooting
 
 1. View the Tomcat log file (it should be visible on the console).
-2. View the [status tab](http://localhost:8080/esdemo/status)
+2. View the [status tab](http://localhost:8080/esdemo/status).
 3. Fiddle with `src/main/java/com/eisenbits/esdemo/Constants.java`. The file contains various settings, including: ElasticSearch host and port, index name.
 
 ## Further reading
