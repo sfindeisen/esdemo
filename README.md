@@ -62,9 +62,9 @@ Use [upload tab](http://localhost:8080/esdemo/upload) to index your XML file(s).
 
 ## Prerequisites
 
-1. Java SE Development Kit 8 from Oracle
-2. Apache Maven
-3. Elasticsearch
+1. [Java SE Development Kit 8 from Oracle](http://www.oracle.com/technetwork/java/javase/downloads/)
+2. [Apache Maven](https://maven.apache.org/download.cgi)
+3. [Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
 
 ## How to build
 
@@ -84,10 +84,10 @@ cd target
 java -jar ./es-demo-1.0.0-SNAPSHOT-war-exec.jar
 ```
 
-This will run an embedded Tomcat. Point your browser to http://localhost:8080/esdemo .
+This will start an embedded Tomcat instance. Point your browser to <http://localhost:8080/esdemo>.
 
 ## Troubleshooting
 
-1. View the Tomcat log file.
+1. View the Tomcat log file (it should be visible on the console).
 2. View the [status tab](http://localhost:8080/esdemo/status)
 3. Fiddle with `src/main/java/com/eisenbits/esdemo/Constants.java`. The file contains various settings, including: ElasticSearch host and port, index name.
