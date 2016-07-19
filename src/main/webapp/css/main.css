@@ -1,0 +1,75 @@
+div, form {
+    display: block;
+}
+
+body {
+    color: black;
+    width: 100%;
+}
+
+body > div#menu {
+    font-size: larger;
+    padding: 1em;
+    display: table-cell;
+    background-color: lightgrey;
+}
+
+form > div {
+    padding: 0.5em 0;
+}
+
+#menu-list {
+    list-style-type: none;
+    padding-left: 0;
+    whitespace: nowrap;
+}
+
+#menu-list a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+#menu-list a:hover {
+    background-color: orange;
+}
+
+body > div#main {
+    padding: 1em 1em 1em 2em;
+    display: table-cell;
+    width: 100%;
+}
+
+h1#main-title {
+    margin: 0;
+    padding: 1em 0.5em;
+    background-color: orange;
+}
+
+table, th, td {
+    border: thin solid lightgrey;
+    border-collapse: collapse;
+}
+
+table#cluster-health td:first-child {
+    font-weight: bolder;
+    background-color: cornflowerblue;
+}
+table#cluster-health td:last-child {
+    background-color: yellow;
+}
+
+.error {
+    background-color: red;
+    color: black;
+}
+.info {
+    background-color: yellow;
+    color: black;
+}
+
+em {
+    background-color: orange;
+    color: black;
+    font-weight: bolder;
+}
